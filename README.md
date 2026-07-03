@@ -34,7 +34,7 @@ It is built for when your camera is broken, for content creation, or for streami
 
 ## Installation
 
-1. Download the latest `.deb` for your device from the [**Releases**](../../releases) page (or add it through Sileo). Choose `arm64e` for A12 and newer, or `arm64` for A7 to A11.
+1. Download the `.deb` from the [**Releases**](../../releases) page (or add it through Sileo). On a modern rootless or roothide jailbreak, take the **`iphoneos-arm64e`** file (a universal build that works on every A9 and newer device); only use the **`iphoneos-arm64`** file if your package manager rejects the arm64e one.
 2. Install and **respring**.
 3. Long-press the Home button to open the menu.
 
