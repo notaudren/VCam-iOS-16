@@ -1,9 +1,9 @@
 <div align="center">
 
-# VCam — Fake Camera for iOS 16
+# VCam
 
-**System‑wide virtual camera & microphone for jailbroken iOS 16.**
-Replace what every app sees and hears — with a photo, or a live OBS stream.
+**Free system-wide virtual camera and microphone for jailbroken iOS 16.**
+Replace what every app sees and hears with a photo or a live OBS stream.
 
 `Fake Cam` · `VCam iOS` · `Virtual Camera` · `iPhone 8` · `OBS` · `roothide`
 
@@ -13,24 +13,18 @@ Replace what every app sees and hears — with a photo, or a live OBS stream.
 
 ## What it is
 
-VCam swaps the **real camera and microphone** at the system level, so **every app** that
-opens the camera (Snapchat, Instagram, TikTok, FaceTime, the stock Camera app, …) receives
-your chosen content instead of the physical sensor — with **no in‑app modification**, so apps
-see a normal camera feed.
+VCam swaps the real camera and microphone at the system level, so every app that opens the camera (Snapchat, Instagram, TikTok, FaceTime, the stock Camera app, and more) receives your chosen content instead of the physical sensor. There is no in-app modification, so apps see a normal camera feed.
 
-Perfect when your camera is broken, for content creation, or for streaming an **OBS** scene
-straight into any app as if it were your live camera.
+It is built for when your camera is broken, for content creation, or for streaming an OBS scene straight into any app as if it were your live camera.
 
 ## Features
 
-- 🖼️ **Image mode** — pick a photo from your library; it becomes the camera feed everywhere.
-- 🎥 **Video via OBS** — stream an OBS scene to your iPhone over the network and it plays as
-  your live camera, **with audio**.
-- 🎙️ **Camera *and* microphone** — the OBS audio replaces the mic too, perfectly **lip‑synced**.
-- 🫥 **Seamless** — the replacement happens below the apps, so the feed looks like a real camera.
-- 🔁 **Live controls** — rotate (90°) and mirror on the fly from a single Home‑button menu.
-- ⚙️ **Clean Settings panel** — license activation, status and expiry, right in Settings.
-- 🪶 **Lightweight & stable** — hardware‑accelerated, low latency (wired connection recommended).
+- 🖼️ **Image mode.** Pick a photo from your library and it becomes the camera feed everywhere.
+- 🎥 **Video via OBS.** Stream an OBS scene to your iPhone over the network and it plays as your live camera, with audio.
+- 🎙️ **Camera and microphone.** The OBS audio replaces the mic too, perfectly lip synced.
+- 🫥 **Seamless.** The replacement happens below the apps, so the feed looks like a real camera.
+- 🔁 **Live controls.** Rotate (90°) and mirror on the fly from a single Home button menu.
+- 🪶 **Lightweight and stable.** Hardware accelerated, low latency (wired connection recommended).
 
 ## Requirements
 
@@ -40,38 +34,35 @@ straight into any app as if it were your live camera.
 
 ## Installation
 
-1. Download the latest `.deb` from the [**Releases**](../../releases) page
-   (or add it through Sileo).
+1. Download the latest `.deb` for your device from the [**Releases**](../../releases) page (or add it through Sileo). Choose `arm64e` for A12 and newer, or `arm64` for A7 to A11.
 2. Install and **respring**.
-3. Open **Settings → VCam** and activate your license key (see below).
+3. Long-press the Home button to open the menu.
 
 ## Usage
 
-- **Long‑press the Home button** to open the VCam menu:
-  - **🖼️ Image** — choose a photo from your library.
-  - **🎥 Video (OBS)** — shows the address to point OBS at, then starts the live feed.
+- **Long-press the Home button** to open the VCam menu:
+  - **🖼️ Image.** Choose a photo from your library.
+  - **🎥 Video (OBS).** Shows the address to point OBS at, then starts the live feed.
   - **🔄 Rotate** · **🪞 Mirror** · **❌ Disable**.
-- Open any camera app — it now shows your VCam feed.
+- Open any camera app and it now shows your VCam feed.
 
-### OBS (live video + audio)
+### OBS (live video and audio)
 
 1. In the VCam menu, tap **Video (OBS)** and start the live feed.
-2. In **OBS → Settings → Output → Custom Output (FFmpeg)**, point the output at the address
-   shown by VCam (container `mpegts`, video `libx264`, audio `aac`).
-3. Start the OBS output — your scene appears as the iPhone camera, with sound.
+2. In **OBS → Settings → Output → Custom Output (FFmpeg)**, point the output at the address shown by VCam (container `mpegts`, video `libx264`, audio `aac`).
+3. Start the OBS output and your scene appears as the iPhone camera, with sound.
 
-> 💡 For the smoothest result, connect the iPhone to the computer **by cable**.
+> 💡 For the smoothest result, connect the iPhone to the computer by cable.
 
-## License
+## Price
 
-VCam is license‑gated. A key is **permanently linked to one iPhone**.
+VCam is now **free**. No license key, no activation, no strings attached.
 
-👉 **To get a license key, contact me on Telegram: [@n0taudren](https://t.me/n0taudren)**
+Questions or feedback? Message me on Telegram: [@n0taudren](https://t.me/n0taudren).
 
 ## Disclaimer
 
-Provided as‑is, for personal and content‑creation use. You are responsible for how you use it
-and for complying with the terms of the apps and services you use it with.
+Provided as is, for personal and content creation use. You are responsible for how you use it and for complying with the terms of the apps and services you use it with.
 
 ---
 
